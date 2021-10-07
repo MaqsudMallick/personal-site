@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import { Card, CardMedia } from "@mui/material";
 import { CardContent } from "@mui/material";
+import Footer from "../components/Footer";
 const Gallery= ()=>{
     const arr= [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15];
     function imag(index){
@@ -19,6 +20,7 @@ const Gallery= ()=>{
             <>
             <Navbar/>
                         {arr.map(imag)}
+                        <Footer/>
             </>
         );
 }

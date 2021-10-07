@@ -10,19 +10,19 @@ const Navbar = () => {
     <AppBar position="static" color= "success">
       <Toolbar>
           <ButtonGroup>
-              <Link href="/" >
+              <Link href="/"  passHref>
         <Button size= "large" variant= "contained" color= "primary">Home</Button>
         </Link>
-        <Link href="/education">
+        <Link href="/education" passHref>
         <Button size= "large" variant= "contained" color= "primary">Education</Button>
         </Link>
-        <Link href="/gallery">
+        <Link href="/gallery" passHref>
         <Button size= "large" variant= "contained" color= "primary">Gallery</Button>
         </Link>
-        <Link href="/projects">
+        <Link href="/projects" passHref>
         <Button size= "large" variant= "contained" color= "primary">Projects</Button>
         </Link>
-        <Link href="/about">
+        <Link href="/about" passHref>
         <Button size= "large" variant= "contained" color= "primary">About</Button>
         </Link>
         </ButtonGroup>

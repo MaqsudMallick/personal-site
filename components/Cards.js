@@ -7,7 +7,7 @@ const Cards= (props)=>{
 
     return (
         <>
-        <a target="_blank" href= {props.link}>
+        <a target="_blank" rel= "noreferrer" href= {props.link}>
         <Card className= "cards" elevation="10" style={{height: "450px"}}>
             <CardMedia component="img" src={props.image} height= "300" width= "150" />
             <CardContent>

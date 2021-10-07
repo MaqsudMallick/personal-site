@@ -7,7 +7,7 @@ const About= ()=>{
         <p style= {{color: "green", fontWeight: "800", fontSize: "20px"}}>About Me</p>
             <p>I am one of the hundreds of CSE guys you would find anywhere in the morning. At night I am a self driven content creator.</p>
         </div>
-        <img src= "/maqsud.jpeg" className= "profile" height= "200" width= "180" />
+        <img alt="" src= "/maqsud.jpeg" className= "profile" height= "200" width= "180" />
         <div className="details">
         <p style= {{color: "green", fontWeight: "800", fontSize: "20px"}}>Details</p>
         <p><strong>Name:</strong><br/>Maqsud Mallick</p>

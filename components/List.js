@@ -6,7 +6,7 @@ import { ListItem } from '@mui/material';
 const Lists = (props)=>{
     return(
             <>
-            <List className="list">
+            <List style= {{margin: "20px"}} className="list">
                 <ListItem autoFocus= "true"><Image  src= {props.image} alt= "logo"  width= "150" height= "150"/>
             <p className="institute-logo">{props.content}</p></ListItem></List>
 

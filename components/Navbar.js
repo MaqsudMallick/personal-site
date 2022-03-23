@@ -48,17 +48,17 @@ const Navbar = () => {
         Education 
         </Link>
         </div>
-        <div className= "nav-nav nav-2">
+        {/*<div className= "nav-nav nav-2">
         <Link href="/gallery" passHref>
         Gallery 
         </Link>
-        </div>
-        <div className= "nav-nav nav-3">
+        </div>*/}
+        <div className= "nav-nav nav-2">
         <Link href="/projects" passHref>
         Projects 
         </Link>
         </div>
-        <div className= "nav-nav nav-4">
+        <div className= "nav-nav nav-3">
         <Link href="/about" passHref>
         About
         </Link>

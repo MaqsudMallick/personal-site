@@ -10,7 +10,7 @@ export default function Home() {
         <Image className= "front-matter" src="/image.jpg" width= "1500" height= "638" quality= "1" alt="decoration"/>
 
 
-        <h1 className= "title" style= {{color: "green", fontWeight: "800", fontSize: "80px"}}>Maqsud Mallick!</h1>
+    {/*<h1 className= "title" style= {{color: "green", fontWeight: "800", fontSize: "80px"}}>Maqsud Mallick!</h1>*/}
         <h1>Personal Site</h1>
       <Footer />
       </div>
